@@ -1,0 +1,30 @@
+@import '@/assets/styles/global.scss';
+.el-menu{
+  &.main-menu{
+    --el-menu-bg-color: #e9c46a;
+    --el-menu-hover-bg-color:#264653;
+    --el-menu-text-color:#264653;
+    --el-menu-hover-text-color:#e9c46a;
+    --el-menu-active-color:#264653;
+    --el-menu-item-height:2rem;
+    --el-menu-sub-item-height:1.5rem;
+    --el-menu-level-padding:1rem;
+    --el-menu-base-level-padding:1rem;
+    border-right:none;
+    box-shadow:2px 0px 5px rgba(0, 0, 0, 0.2);
+    .el-sub-menu__title:hover,.el-menu-item:hover{
+      color:var(--el-menu-hover-text-color);
+    }
+    .el-menu--inline{
+      --el-menu-hover-bg-color:#264653;
+      --el-menu-bg-color: #e8d39f;
+    }
+    .el-menu-item.is-active{
+      font-weight: bold;
+      background: #f4a261;
+      &:hover{
+        background: #264653;
+      }
+    }
+  }
+}

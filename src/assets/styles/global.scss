@@ -1,0 +1,29 @@
+html,body{
+
+}
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: Alibaba-Health-Normal;
+}
+
+.full{
+  width:100%;
+  height:100%;
+  box-sizing:border-box;
+}
+
+// 一些全局变量
+$nav-head-height:2rem;
+$foot-tool-height:1.5rem;
+$left-menu-width:15rem;
+
+// 全局颜色
+$main-blue:#264653;
+$main-green:#2a9d8f;
+$main-yellow:#e9c46a;
+$main-light-yellow: #f1deb0;
+$main-white: #e1ddd3;
+$main-orange:#f4a261;
+$main-red:#e76f51;
